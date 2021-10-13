@@ -85,8 +85,8 @@ public class WordGridService {
                 }
             }
         }
-//        randomFillGrid(contents);
-        return  contents;
+        randomFillGrid(contents);
+        return contents;
     }
 
     private Direction getDirectionForFit(char[][] contents, String word, Coordinate coordinate){
